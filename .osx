@@ -86,6 +86,9 @@ defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
 
 # Disable auto-correct
 defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
+defaults write NSGlobalDomain NSAutomaticCapitalizationEnabled -bool false
+defaults write com.apple.HIToolbox AppleCurrentKeyboardLayoutInputSourceID -string "com.apple.keylayout.USInternational-PC"
+
 
 ###############################################################################
 # Screen                                                                      #
